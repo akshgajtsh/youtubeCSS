@@ -10,7 +10,7 @@ body{
     width: 760px;
     }
 
-/*属性セレクタ*/
+/*疑似要素セレクタ*/
 
 a:link{
     color: crimson;
