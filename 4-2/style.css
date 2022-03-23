@@ -1,0 +1,14 @@
+@charset "utf-8"
+body{
+    padding: 1em 6em;
+}
+
+/*font-weightの練習*/
+
+h1{
+    font-weight: lighter;
+}
+p{
+    font-weight: bold;
+}
+
