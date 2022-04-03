@@ -1,0 +1,9 @@
+・margin
+ボックス（ボーダー）の外側の余白
+
+# margin
+    ４方向に分けて書くことが出来る
+    -margin-top
+    -margin-right
+    -margin-bottom
+    -margin-left
