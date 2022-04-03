@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>css</title>
+        <link rel="stylesheet" href="./style.css" type="text/css">
+    </head>
+    <body>
+        <nav>
+            <a href="#">・CSSの基本</a>
+            <a href="#">・margin</a>
+            <a href="#">・passing</a>
+        </nav>
+        <div>
+            <p>
+                ・CSSの基本（技術編）
+
+                ＃適用の優先順位
+                -後に書いたものが優先される
+                -セレクタの書き方によって優先度が変わる
+                1.要素を特定したIDのセレクタ（HTMLのタグとIDの併用）
+                2.要素を特定しない」IDセレクタ（IDのみの利用）
+                3.要素を特定したClassセレクタ（htmlタグとClassの併用）
+                4.要素を特定しないとclassセレクタ（classのみ利用）
+                5.タイプセレクタ（HTMLタグのみの利用）
+                6.全称セレクタ（＊を利用した指定）
+                -!importantをつけたものが優先される
+                -ユーザーの作っているスタイルなども優先度に含まれる
+                1.ページ製作者の指定したCSS
+                2.ユーザーが指定したスタイル
+                3.ブラウザ独自のスタイル
+
+
+                ＃用語
+                -セレクタ
+                「どこの」を指定するために使われるもの
+                -プロパティ
+                「何を」を指定するために使われるもの
+                -値
+                「どうする」を指定するために使われるもの
+
+                #CSS3
+                CSS2.1を拡張してデザインを実現できる範囲を広げたもの
+                現在策定中
+                ブラウザによって対応状況が異なる→ブラウザごとに先行搭載されている機能もある
+
+                ＃プレフィックス
+                CSS3に一部の機能はブラウザごとに先行されている物があるので
+                これを使うときにはプレフィックス」が必要になる
+
+                -書き方
+                mozilla系-moz-（CSS3のプロパティ）
+                webkit系-webkit-(CSS3のプロパティ)
+            </p>
+            <p>
+                ・margin
+                ボックス（ボーダー）の外側の余白
+
+                # margin
+                ４方向に分けて書くことが出来る
+                -margin-top
+                -margin-right
+                -margin-bottom
+                -margin-left
+            </p>
+            <p>
+                ・passing
+                -余白の一種
+                ボックス（ボーダー）の内側に当たる余白
+
+                #padding
+                4つに分けることが出来る
+                -padding-top
+                -padding-right
+                -padding-bottom
+                -padding-left
+            </p>
+        </div>
+    </body>
+</html>
