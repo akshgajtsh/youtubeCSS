@@ -1,0 +1,32 @@
+.top, .middle, .bottom{
+    margin:0;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+}
+
+.top{
+    background-color: red;
+    color: white;
+}
+
+.middle{
+    background-color: yellow;
+    color:black;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+.bottom{
+    background-color: lightblue;
+    color: black;
+}
+
+div{
+    padding: 10px 20px;
+    background-color: #fff;
+    width: 400px;
+    margin: 20px auto;
+    position: relative;
+}
