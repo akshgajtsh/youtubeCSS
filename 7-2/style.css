@@ -1,0 +1,19 @@
+.box{
+    width: 700px;
+    height: 500px;
+    border-radius: 10px;
+    background-image: url('img/favicon.ico');
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.scroll{
+    background-attachment: scroll;
+}
+
+.fixed{
+    background-attachment: fixed;
+}
+
+.local{
+    background-attachment: local;
+}
