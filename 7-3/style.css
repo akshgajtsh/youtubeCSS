@@ -1,0 +1,17 @@
+div{
+    margin: 50px auto;
+    font: 1.1em/1.5 sans-serif;
+    box-sizing: border-box;
+}
+
+html{height: 100%;}
+
+.box{
+    width: 80%;
+    height: 500%;
+    padding: 30%;
+    background: url('img/mainvisual.jpg') no-repeat;
+    border: 15px solid rgba(35, 66, 97, .6);
+    background-size: cover;
+    background-clip: content-box;
+}
